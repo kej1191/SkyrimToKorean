@@ -1,0 +1,130 @@
+﻿'
+'	Note: 	If you are using special characters (german "Umlaute", japanese character, ...) 
+'			you have to store this file with the right encoding (usually UTF-8). Notepad++ can do it.
+'
+Language: Korean
+Translator: CJ.P(JohnCarry)
+Date: 2015/06/22
+FNIS Version: 5.4.2
+'	User Interface GenerateFNISforUsers
+UIu.01=FNIS 동작 업데이트
+UIu.02=일관성 확인
+UIu.03=나가기
+UIu.04=가능한 패치  (모르는 경우 체크하지 마세요!)
+UIu.05=***
+UIu.06=* 오리지날 모드에서 추가파일이 (애니메이션, 등등.) 필요합니다
+UIu.07= 사용자를 위한 FNIS 동작 파일 생성 <v>    한글화 http://cjps.tistory.com/
+UIu.08=(FNISRoot_Behavior.hkx, defaultmale.hkx, and defaultmale.hkx).
+UIu.09=이 도구를 호출:
+UIu.10=- FNIS를 설치한 후, 혹은 FNIS를 어떤 모드가 사용하면
+UIu.11=- FNIS를 사용하는 모드를 설치 제거한 후에 사용하세요
+UIu.12=   (중요, 그렇치 않으면 모든 charactes가 고장날겁니다!!!)
+UIu.13=Creatures 설치 제거하세요
+'	User Interface GenerateFNISforModders
+UIm.01=모드 동작 생성
+UIm.02=나가기
+UIm.03=모더를 위한 FNIS 동작 파일 생성 <v>
+UIm.04=(FNIS_<mod>_Behavior.hkx).
+UIm.05=모더가 아니라면: 이 툴을 사용하지마세요(궁서체 진지함). 
+UIm.06=설치된 파일이 손상될수도 있다.
+'	Messages GenerateFNISforUsers
+MSGu.01=패치
+MSGu.02=읽는중
+MSGu.03=모든 Anim 리스트 스캔 완료. 동작 파일 생성
+MSGu.04=생성 <1>
+MSGu.05=Creature Pack이 설치되지 않았습니다
+MSGu.06=(<1> furniture,<2> offset,<3> alternate animations)
+MSGu.07=<1> 기본 동작 xml 설치
+MSGu.08=Modify Behavior Files to GENDER specific
+MSGu.09=Converting Behavior Files (.xml to .hkx)
+MSGu.10=Generating mt_behavior xml ...
+MSGu.11=<2>개의 모드를 위한 <1>개의 애니메이션이 성공적으로 설치되었습니다 (<3>)
+MSGu.12=골격(hkx) 여성: <1> (<2> bones)   남성: <3> (<4> bones)
+MSGu.13=PCEA 파일
+MSGu.14=잘못된 PCEA 파일 이름
+MSGu.15=GENDER 경로가 없음
+MSGu.16=성별 변경에 대한
+MSGu.17=animation files
+MSGu.18=Duplicate AnimFile <1> for <2>, mods <3> and <4>
+MSGu.19=Missing AnimFile <1> for <2>, mod <3>
+MSGu.20=Same AnimEvent <1> in mod <2> and <3>
+MSGu.21=(<1> furniture,<2> offset,<3> paired,<4> kill,<5> alternate animations)
+MSGu.22=(<1> paired,<2> kill animations)
+MSGu.23=복제 AnimEvent <1> 를 위해 <2>, 모드 <3> 그리고 <4>
+MSGu.24=용법
+MSGu.25=진짜 FNIS Creature 행동 파일을 삭제하시겠습니까?
+MSGu.26=그것들 없이 어떠한 FNIS Creature를 의존하는 모드를 사용할 수 없습니다. 계속하시겠습니까?
+MSGu.27=FNIS Creature 행동 설치 제거.
+MSGu.28=Creature 행동들 생성 ...
+MSGu.29=<1> 개의 애니메이션을 위한 <2> 모드 그리고<3> creatures 가 성공적으로 설치되었습니다.
+'MSGu.30=*****
+MSGu.30=<1> 가능한 일관성 문제
+MSGu.31=제거.
+'	Messages GenerateFNISforModders
+MSGm.01=FNIS 애니메이션 리스트
+MSGm.02=***
+MSGm.03=사용자의 모드의 FNIS 애니메이션 목록을 선택하십쇼
+MSGm.04=Animlist 사용
+MSGm.05=Animation 리스트를 읽는중 ...
+MSGm.06=FNIS 모드 동작 파일 xml을 생성중...
+MSGm.07=모드 동작 xml 을 hkx 으로 변환중 ...
+MSGm.08=***
+MSGm.09=Copying new behavior files to standard folder ...
+MSGm.10=성공적으로 생성했습니다
+MSGm.11=바로가기를 바탕화면에 만들겠습니까?
+MSGm.12=(취소: 아니요, 그리고 다신 물어보지마요!)
+'	Warnings
+WARN.01=위험
+WARN.02=잘못된 설치. 생성기가 스카이림 설치 경로에서 실행되지 않았습니다.
+WARN.03=잘못된 설치. 생성기가 <Skyrim_Data>\Tools\GenerateFNIS_for_Users 에서 실행되지 않았습니다.
+WARN.04=설치되지 않음
+WARN.05=생성기 <1> 그리고 FNISBase <2> 다른 버전이 있습니다.
+WARN.06= <1>에서 AnimationList 를 찾았습니다, 하지만 해당 동작 파일이 없습니다. 불완전한 모드는 무시됩니다.
+WARN.07=커스텀 골격 발견. SKELETON patch를 선택하세요. 
+WARN.08=위험(s)
+WARN.09=unmatched <1> Animation(s) (see GenerateFNIS_LogFile.txt)
+WARN.10=바로가기를 만들 수 없습니다
+WARN.11=Generator 이 적갑한 (Steam) Skyrim이 설치된 경로에서 실행되지 않았습니다. 많약 SKSE를 사용한다면, 스팀을 통해 스카이림을 한번 실행하면 고쳐집니다.
+WARN.12=설치된 스카이림 버전이 요구사항보다 오래된 버전입니다
+WARN.13=meshes\actors\character\behaviors 에 FNIS 행동 파일이 없습니다. 이것은 스카이림 비호환성의 원인이 됩니다:
+WARN.14=Behaviored 오브젝트 "<1>" 를 어떤 BehavioredObjectList에서도 찾을 수 없습니다. 기본 AE 로서 "returnToDefault" 를 사용하세요.
+WARN.15=애니메이션 파일이 누락되었습니다:
+'	Errors
+ERR.01=중요한 파일/폴더가 누락되었습니다. FNIS를 재설치하세요.
+ERR.02=언어파일이 Data\Tools\GenerateFNIS_for_Users\languages에서 누락되었습니다. FNIS를 재설치하세요.
+ERR.03=존재하지 않습니다
+ERR.04=라인
+ERR.05=Block Header가 누락되었습니다
+ERR.06=Previous Block가 완료되지 않았습니다
+ERR.07=잘못된 Block Head
+ERR.08=잘못된 Block Count
+ERR.09=너무 깁니다
+ERR.10=누락
+ERR.11=잘못된 Modifier (count)
+ERR.12=잘못된 Modifier (behavior element)
+ERR.13=Too many animations defined (max. 500 per type)
+ERR.14=오래된 FNIS 버전? Animation List에 잘못된 옵션이 있습니다, 라인
+ERR.15=오래된 FNIS 버전? Animation List에 잘못된 라인이 있습니다, 라인
+ERR.16=생성할 수 없습니다
+ERR.17=DefaultMale.xml: (완전한) 기본 파일이 아닙니다
+ERR.18=DefaultMale.xml에 잘못된 라인이 있습니다
+ERR.19=잘못된 subblock header 또는 종료되었습니다, line
+ERR.20=잘못된 patchblock header 또는 종료되었습니다, line
+ERR.21=PatchID를 PatchList에서 찾을 수 없습니다, Template line
+ERR.22=폴더 이름과 파일 이름이 일치하지 않습니다
+ERR.23=PCEA 패치가 체크되었지만 PCEA이 설치되지 않았습니다
+ERR.24="hkxcmd.exe" 파일이 누락되었습니다. 어쩌면 지랄맞은 바이러스 감지기에 의해 제거되었을 수도...?
+ERR.25="+" line not following an "s"
+ERR.26=시퀸스 애니메이션 (s) 에는 적어도 2개의 애니메이션이 있다., line
+ERR.27=애니메이션이 너무 많습니다
+ERR.28=애니메이션이 너무 많습니다. 부속이나 offset 애니메이션과 함께 모드의 숫자를 줄이세요.
+ERR.29=부속 애니메이션 (fu) 에는 적어도 3개의 애니메이션이 있다, 첫번째와 마지막이 비 주기적이다, line
+ERR.30=모션 데이터가 여기에 허용되지 않습니다
+'	Patches
+PTCH.01="GENDER Specific Animations" - see FNIS Description > "Patches"
+PTCH.02="SKELETON Arm Fix" - see FNIS Description > "Patches"
+PTCH.03=* xp32's "PC Exclusive Animation Path" (PCEA) - http://skyrim.nexusmods.com/mods/14871
+PTCH.04=* xp32's "New Animation for Running with Bow" - http://skyrim.nexusmods.com/mods/16975
+PTCH.05=* xp32's "New Animation for 1H Weapon" - http://skyrim.nexusmods.com/mods/18981
+PTCH.06=* xp32's "Momo  Acrobatic Jump" - http://skyrim.nexusmods.com/mods/16864
+PTCH.07=* rongphale's "Horsemen Mounted Combat Enh." - http://skyrim.nexusmods.com/mods/24286
